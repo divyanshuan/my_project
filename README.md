@@ -2,6 +2,6 @@
 
 
 <p align="center">
-  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+ ![alt text](https://cdn-media-1.freecodecamp.org/images/1*KmFzveXeGZNH5kdepynd4A.png)
 </p>
 
