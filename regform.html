@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registration form </title>
+    <link rel="stylesheet" href="regform.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="b">
+    <div class="a">
+        <img src="logo.png" alt="logo">
+        <h1>Registration form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input class="g" id="name" type="text" placeholder="Name"><br>
+            <label for="rollno">Roll No:</label>
+            <input class="g" id="rollno" type="number" placeholder="Roll No"><br>
+            <label for="dob">Date of birth :</label>
+            <input class="g" id="dob" type="date" name="Date of birth" placeholder="Date of Birth"><br>
+            <label for="mno">Mobile No :</label>
+            <input class="g" type="number" name="mno" id="mno" placeholder="10 digits only"><br>
+            <label for="mail">Email :</label>
+            <input class="g" type="email" id="mail" placeholder="abc@gmail.com"><br>
+            <label for="ln">Linkdin link :</label>
+            <input type="url" class="g" id="ln" placeholder="url"><br>
+            <label for="profile">Resume:</label>
+            <input type="file" class="g" id="profile"><br><br>
+            <label for="gend">Gender :</label>
+            Male:<input type="radio" name="gen" id="gend">
+            Female:<input type="radio" name="gen" id="gend">
+            Others:<input type="radio" name="gen" id="gend"><br><br>
+            <label for="cour">Branch:</label><br>
+            <input type="checkbox" name="bra" id="cour">CSE<br>
+            <input type="checkbox" name="bra" id="cour">Civil<br>
+            <input type="checkbox" name="bra" id="cour">Electrical<br>
+            <label for="lan">Language known:</label>
+            <select name="Language known" id="lan">
+                <option value="choose">Choose one </option>
+                <optgroup label=" programming Language">
+                    <option value="c++">C++</option>
+                    <option value="c++">C++</option>
+                    <option value="python">Python</option>
+                </optgroup>
+                <optgroup label="Web devlopment">
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                </optgroup>
+            </select><br><br>
+            <label for="txtar">write about yourself :</label> <br>
+            <textarea name="exp" id="txtar" cols="40" rows="2"></textarea><br>
+            <div class="ag">
+                <input type="checkbox" name="terms" id="terms"> i agree to the terms & condition.<br>
+            </div><br>
+            <input id="inp" type="reset" value="reset">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>
